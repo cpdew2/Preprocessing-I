@@ -172,6 +172,7 @@ h1 {
   display: flex;
   font-size: 25rem;
   border-bottom: solid black 2px;
+  background-color: beige;
 }
 .container p {
   display: flex;
@@ -203,9 +204,10 @@ ul {
   border-bottom: solid black 2px;
   padding: 1%;
 }
-.Contact-Me p {
-  align-items: center;
-  font-size: 2rem;
+.Contact-Me {
+  display: flex;
+  justify-content: center;
+  font-size: 10rem;
 }
 @media (max-width: 500px) {
   body {
